@@ -1,0 +1,107 @@
+/* Fontes Importadas */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilos Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fundo branco */
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(255, 204, 224, 0.8); /* Fundo rosa claro translúcido */
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    color: #ffcce0;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Contato */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive; /* Fonte decorativa */
+    color: #ff99b7;
+}
+
+.contact p {
+    margin: 10px 0 20px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+form input, form textarea, form button {
+    margin-top: 10px;
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+form button {
+    background-color: #ffcce0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff99b7;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: rgba(255, 204, 224, 0.8); /* Fundo rosa translúcido */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}

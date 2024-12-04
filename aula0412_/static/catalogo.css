@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fundo branco */
+    color: #333;
+}
+
+header {
+    background-color: #ffd1dc; /* Rosa clarinho */
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.catalog {
+    text-align: center;
+    padding: 20px;
+}
+
+.catalog h1, .catalog h2 {
+    color: #ff8ba7; /* Rosa delicado */
+}
+
+.catalog-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.catalog-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffd1dc; /* Rosa clarinho */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
